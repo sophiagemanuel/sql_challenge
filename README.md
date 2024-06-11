@@ -1,9 +1,25 @@
 # sql_challenge
-Module 9 Challenge:
-To begin the Module 9 Challenge, I first put the CSV files within the Module 9 Starter File into the 'resources' file. I then opened each of the files and created tables for each file using the Quick DBD website (https://www.quickdatabasediagrams.com/).
-I created my ERD based off the CSV files, creating the entity boxes of Dept_Emp, Departments, Dept_manager, Employees, Salaries, and Titles. Within those I gave primary keys to 'dept_no' within Departments, 'emp_no' within Employees, and 'title_id' within Titles. My ERD can be found within the Employee SQL titled 'QuickDBD-export.png' and the code that was exported into PostGreSQL under the name 'table-creation.sql'
-My data analysis is found within EmployeeSQL, within the 'data-analysis.sql' file.
-For each question, there is a corresponding answer within the sql file:
+## Introduction
+The SQL Challenge involves creating a database schema from CSV files, generating an Entity Relationship Diagram (ERD), and performing various SQL queries to analyze the data. The project focuses on employee data, including departments, managers, salaries, and titles.
+
+## Features
+Database schema creation from CSV files
+ERD generation using QuickDBD
+SQL data analysis queries
+Detailed documentation of SQL queries and their results
+
+## ERD Diagram
+The ERD for this project was created using QuickDBD and is saved as QuickDBD-export.png. It includes the following tables:
+Dept_Emp
+Departments
+Dept_manager
+Employees
+Salaries
+Titles
+
+## SQL Queries
+
+The data-analysis.sql file contains the SQL queries used for data analysis. Below are the queries and their descriptions:
 
 1. List the employee number, last name, first name, sex, and salary of each employee.
 ![image](https://github.com/sophiagemanuel/sql_challenge/assets/157437098/bfc2cc47-c667-46ca-b10e-aa20e805312d)
@@ -28,3 +44,10 @@ For each question, there is a corresponding answer within the sql file:
 
 8. List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
 ![image](https://github.com/sophiagemanuel/sql_challenge/assets/157437098/98be89b5-45c1-45b0-863c-6b1bcbce9080)
+
+## Contact
+If you have any questions, feel free to contact:
+
+Name: Sophia Emanuel
+Email: sophiagemanuel@gmail.com
+LinkedIn: /Sophiaemanuel
